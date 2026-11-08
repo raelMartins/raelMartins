@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="./assets/banner-dark.svg#gh-dark-mode-only" alt="Martins Akeredolu — Senior Full-Stack Engineer, Lagos, open to work" width="100%" />
-  <img src="./assets/banner-light.svg#gh-light-mode-only" alt="Martins Akeredolu — Senior Full-Stack Engineer, Lagos, open to work" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
+    <img src="./assets/banner-light.svg" alt="Martins Akeredolu — Senior Full-Stack Engineer, Lagos, open to work" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
@@ -14,8 +16,10 @@
 </p>
 
 <p align="center">
-  <img src="./assets/rule-dark.svg#gh-dark-mode-only" alt="" />
-  <img src="./assets/rule-light.svg#gh-light-mode-only" alt="" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/rule-dark.svg" />
+    <img src="./assets/rule-light.svg" alt="" />
+  </picture>
 </p>
 
 I'm **Martins** — a senior full-stack engineer in Lagos. I build product-shaped systems: interactive maps, live 3D allocation, multi-tenant platforms, and payment flows that have to work in more than one country.
